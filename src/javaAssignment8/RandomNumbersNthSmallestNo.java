@@ -11,7 +11,7 @@ public class RandomNumbersNthSmallestNo {
 		int min = 100;
 		int max = 1000;
 		Random rn = new Random();
-		int[] randomArr = new int[5];
+		int[] randomArr = new int[500];
 		System.out.println("The random numbers between 100 and 1000 for 500 times are: ");
 		for (int i = 0; i <randomArr.length; i++) {
 			randomArr[i] = rn.nextInt(max - min + 1) + min;
@@ -34,7 +34,7 @@ public class RandomNumbersNthSmallestNo {
 			randomArr[index]=randomArr[i];
 			
 		}
-		System.out.println("The nth smallest number is :"+randomArr[n]);
+		System.out.println("The nth smallest number is :"+randomArr[n-1]);
 	    
 	   
 	    
