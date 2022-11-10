@@ -23,10 +23,10 @@ public class ArraySort {
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i] + " ");
 		}
-		/* using Arrays class and function sort and passing argument as integer array to be sorted
-		 * Arrays.sort(array); 
-		 * for(int item: array) 
-		 * { System.out.println(item); }
-		 */
+		// using Arrays class and function sort and passing argument as integer array to
+		// be sorted
+		// Arrays.sort(array);
+		// System.out.println("The sorted array using sort() from arrays Class: "+Arrays.toString(array));
+
 	}
 }
